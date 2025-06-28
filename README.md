@@ -53,4 +53,4 @@ This project is a pixel-perfect solution to the [Simple Article Listing](https:/
 
 ## 👤 Author
 Coded by **Ayokanmi Adejola**  
-Challenge by [devChallenges.io](https://devchallenges.io/)# Simple-Article-Listing
+Challenge by [devChallenges.io](https://devchallenges.io/)
