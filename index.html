@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple Article Listing | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        background: #e9ecf5;
+        font-family: 'Inter', Arial, sans-serif;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 48px auto 0 auto;
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(34,34,59,0.08);
+        padding: 56px 32px 56px 32px;
+      }
+      .main-title {
+        font-size: 2.7rem;
+        font-weight: 800;
+        color: #22223b;
+        text-align: center;
+        margin-bottom: 48px;
+        letter-spacing: -0.5px;
+        line-height: 1.1;
+      }
+      .articles-list {
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+      }
+      .article-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+      }
+      .article-img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 18px;
+        flex-shrink: 0;
+        background: #f5f6fa;
+      }
+      .article-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .article-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #22223b;
+        margin-bottom: 10px;
+        line-height: 1.3;
+      }
+      .article-desc {
+        font-size: 1.01rem;
+        color: #4a4e69;
+        margin-bottom: 22px;
+        line-height: 1.5;
+      }
+      .article-date {
+        font-size: 0.97rem;
+        color: #888fa3;
+        margin-top: auto;
+        letter-spacing: 0.1px;
+      }
+      .separator-svg {
+        display: block;
+        margin: 0 auto 48px auto;
+        width: 230px;
+        max-width: 100%;
+        height: 50px;
+      }
+      .separator-line {
+        width: 100%;
+        height: 1px;
+        background: #e9ecf5;
+        margin: 44px 0 0 0;
+        border: none;
+      }
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 32px;
+        color: rgb(55, 65, 81);
+      }
+      .author-info a {
+        text-decoration: none;
+      }
+      @media (max-width: 900px) {
+        .container {
+          padding: 24px 0 24px 0;
+        }
+        .main-title {
+          font-size: 2rem;
+        }
+        .articles-list {
+          gap: 32px;
+        }
+        .article-row {
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+        }
+        .article-img {
+          width: 100%;
+          max-width: 320px;
+          height: 180px;
+        }
+        .article-content {
+          align-items: center;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 8px 0 8px 0;
+        }
+        .main-title {
+          font-size: 1.3rem;
+          margin-bottom: 28px;
+        }
+        .separator-svg {
+          margin-bottom: 28px;
+          width: 80px;
+        }
+        .articles-list {
+          gap: 18px;
+        }
+        .article-row {
+          gap: 8px;
+        }
+        .article-img {
+          max-width: 100%;
+          height: 120px;
+        }
+        .article-title {
+          font-size: 1rem;
+        }
+        .article-date {
+          font-size: 0.85rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="main-title">We release interesting articles about technology</h1>
+      <img src="resources/Seperator.svg" alt="Separator" class="separator-svg" />
+      <div class="articles-list">
+        <div class="article-row">
+          <img src="resources/photo_1.png" srcset="resources/photo_1@2x.png 2x" alt="Cloud Computing" class="article-img" />
+          <div class="article-content">
+            <h2 class="article-title">Unlocking the Power of Cloud Computing: A Guide<br> to Scalable Solutions</h2>
+            <time class="article-date" datetime="2024-11-12">November 12, 2024</time>
+          </div>
+        </div>
+        <hr class="separator-line" />
+        <div class="article-row">
+          <img src="resources/photo_2.png" srcset="resources/photo_2@2x.png 2x" alt="Future of AI" class="article-img" />
+          <div class="article-content">
+            <h2 class="article-title">The Future of AI: How Machine Learning is <br>Revolutionizing Industries</h2>
+            <time class="article-date" datetime="2024-11-12">November 12, 2024</time>
+          </div>
+        </div>
+        <hr class="separator-line" />
+        <div class="article-row">
+          <img src="resources/photo_3.png" srcset="resources/photo_3@2x.png 2x" alt="Impact of 5G" class="article-img" />
+          <div class="article-content">
+            <h2 class="article-title">The Impact of 5G on Business: How Faster Networks<br> are Transforming the Way We Work</h2>
+            <time class="article-date" datetime="2024-11-12">November 12, 2024</time>
+          </div>
+        </div>
+      </div>
+    </main>
+     
+    <div class="author-info">
+      Coded by <a href="#">Ayokanmi Adejola</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
