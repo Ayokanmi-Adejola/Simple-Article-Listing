@@ -1,21 +1,18 @@
-
-
-# Simple Article Listing | devChallenges
+# Simple Article Listing | devChallenges.io
 
 <div align="center">
   <img src="./thumbnail.jpg" alt="Simple Article Listing Screenshot" width="600"/>
 </div>
 
-
-<div align="center">
-  <b>Solution for the <a href="https://devchallenges.io/challenge/Simple Article Listing" target="_blank">Simple Article Listing</a> challenge from <a href="https://devchallenges.io/" target="_blank">devChallenges.io</a></b>
-</div>
-
----
-
 ## 📋 Overview
 
 This project is a pixel-perfect solution to the [Simple Article Listing](https://devchallenges.io/challenge/simple-article-listing) challenge from [devChallenges.io](https://devchallenges.io/). The goal was to create a fully responsive, accessible, and visually accurate article listing page using only HTML and CSS, closely matching the provided design for all screen sizes.
+
+
+| Desktop | Tablet | Mobile |
+| ------- | ------ | ------ |
+| ![Desktop](./design/Desktop_1350px.jpg) | ![Tablet](./design/Tablet_1024px.jpg) | ![Mobile](./design/Mobile_412px.jpg) |
+
 
 ## 🚀 Features
 
@@ -48,9 +45,3 @@ This project is a pixel-perfect solution to the [Simple Article Listing](https:/
 
 - [devChallenges.io](https://devchallenges.io/) for the challenge and assets
 - [Unsplash](https://unsplash.com/) for the sample images
-
----
-
-## 👤 Author
-Coded by **Ayokanmi Adejola**  
-Challenge by [devChallenges.io](https://devchallenges.io/)
